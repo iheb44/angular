@@ -1,0 +1,8 @@
+<span class="badge badge pill"
+    [ngClass]="{'badge-success':film.new,
+                'badge-warning':!film.new}">
+    Film n° {{index}} {{film.title |uppercase}}
+</span>
+<img src="{{e.photo}}">
+<input type="checkbox" [checked]="film.duration>90"/>
+

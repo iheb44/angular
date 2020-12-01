@@ -1,0 +1,6 @@
+<h1>les films du jour </h1>
+<ng-container *ngFor="let f of lesFilms ; index as i ">
+    <div  class="col">
+    <iheb-film [film] = "f" [index] = "i"></iheb-film>
+    </div>
+</ng-container>
